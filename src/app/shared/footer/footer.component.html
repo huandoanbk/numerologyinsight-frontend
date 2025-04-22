@@ -1,0 +1,72 @@
+<footer class="border-t bg-white">
+  <div class="container px-4 py-12 md:px-6">
+    <div class="grid gap-8 md:grid-cols-4">
+      <div class="space-y-4">
+        <a routerLink="/" class="flex items-center gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-6 w-6 text-red-600"
+          >
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+            ></polygon>
+          </svg>
+          <span class="text-xl font-bold">NumerologyInsight</span>
+        </a>
+        <p class="text-sm text-gray-500">
+          Discover the hidden meanings in your name and birthdate to reveal your life's purpose.
+        </p>
+      </div>
+      <div class="space-y-4">
+        <h3 class="text-lg font-bold">Quick Links</h3>
+        <nav class="flex flex-col space-y-2">
+          <a routerLink="/" class="text-sm hover:text-red-600"> Home </a>
+          <a routerLink="/what-is-numerology" class="text-sm hover:text-red-600">
+            About Numerology
+          </a>
+          <a routerLink="/services" class="text-sm hover:text-red-600"> Services </a>
+          <a routerLink="/blog" class="text-sm hover:text-red-600"> Blog </a>
+        </nav>
+      </div>
+      <div class="space-y-4">
+        <h3 class="text-lg font-bold">Resources</h3>
+        <nav class="flex flex-col space-y-2">
+          <a routerLink="/calculator" class="text-sm hover:text-red-600"> Numerology Calculator </a>
+          <a routerLink="/name-numerology" class="text-sm hover:text-red-600"> Name Numerology </a>
+          <a routerLink="/life-path" class="text-sm hover:text-red-600"> Life Path Numbers </a>
+          <a routerLink="/compatibility" class="text-sm hover:text-red-600"> Compatibility </a>
+        </nav>
+      </div>
+      <div class="space-y-4">
+        <h3 class="text-lg font-bold">Contact</h3>
+        <nav class="flex flex-col space-y-2">
+          <a routerLink="/contact" class="text-sm hover:text-red-600"> Contact Us </a>
+          <a routerLink="/support" class="text-sm hover:text-red-600"> Support </a>
+          <a routerLink="/faq" class="text-sm hover:text-red-600"> FAQ </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="border-t py-6">
+    <div
+      class="container flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:px-6"
+    >
+      <p class="text-center text-sm text-gray-500">
+        © {{ currentYear }} NumerologyInsight. All rights reserved.
+      </p>
+      <nav class="flex gap-4">
+        <a routerLink="/privacy" class="text-xs text-gray-500 hover:text-red-600"> Privacy </a>
+        <a routerLink="/terms" class="text-xs text-gray-500 hover:text-red-600"> Terms of Use </a>
+        <a routerLink="/gdpr" class="text-xs text-gray-500 hover:text-red-600"> GDPR </a>
+      </nav>
+    </div>
+  </div>
+</footer>
