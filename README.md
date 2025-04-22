@@ -18,17 +18,20 @@ Users can input their full name and birthdate to receive a personalized numerolo
 ## 🚀 Getting Started
 
 ### 📁 Clone this repository
+
 ```bash
-git clone https://github.com/your-org/numerologyinsight-frontend.git
+git clone https://github.com/huandoanbk/numerologyinsight-frontend.git
 cd numerologyinsight-frontend
 ```
 
 ### 🔧 Install dependencies
+
 ```bash
 npm install
 ```
 
 ### ▶️ Run development server
+
 ```bash
 ng serve
 ```
@@ -37,7 +40,7 @@ The app will be running at `http://localhost:4200`
 
 ---
 
-## 📁 Folder Structure (Recommended)
+## 📁 Folder Structure
 
 ```bash
 src/
@@ -59,10 +62,10 @@ src/
 
 ## 🌐 API Integration
 
-| Action | API Endpoint |
-|--------|--------------|
-| Submit name + birthdate | `POST /api/numerology/` |
-| Get AI report | (combined in response from backend) |
+| Action                  | API Endpoint                        |
+| ----------------------- | ----------------------------------- |
+| Submit name + birthdate | `POST /api/numerology/`             |
+| Get AI report           | (combined in response from backend) |
 
 > All API calls require `environment.apiUrl` to be set correctly per environment.
 
@@ -82,6 +85,7 @@ src/
 > See full rules in `../docs/branch-naming.md`
 
 Example branches:
+
 ```
 feature/home-form
 feature/result-page
@@ -92,12 +96,8 @@ bugfix/ai-loading-error
 
 ## 👤 Author
 
-- Doan Vo Hoang Huan – Product Owner / FE Dev Lead  
-- Simulating 5-person Agile team  
-- Contact: [your-email@example.com]
+- Doan Vo Hoang Huan – Product Owner / FE Dev Lead
+- Simulating 5-person Agile team
+- Contact: [huandoan89@gmail.com]
 
 ---
-
-## 📄 License
-
-MIT License – feel free to fork or build your own version.
